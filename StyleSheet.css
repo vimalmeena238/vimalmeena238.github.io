@@ -1,6 +1,6 @@
 body
     {
-       background:url(lebr.jpg) no-repeat;
+       background:url("lebr.jpg") no-repeat;
        background-size: cover;
     } 
  /* table row transition duration*/
