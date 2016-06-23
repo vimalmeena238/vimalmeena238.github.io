@@ -44,10 +44,47 @@ tr {
            Background-color :black;
       }
        
-  /* Buttons background gradient*/   
-  .but {
-          background: linear-gradient(to bottom, rgba(245,246,246,1) 24%,rgba(245,246,246,1) 24%,rgba(219,220,226,1) 42%,rgba(184,186,198,1) 52%,rgba(245,246,246,1) 99%);
-       }
+  /* Buttons Style*/  
+ .btn-1 
+             {
+
+	border: 3px solid #fff;
+	color: #fff;
+             
+}
+
+.btn-1d {
+	overflow: hidden;
+}
+
+.btn-1d:after {
+	width: 0;
+	height: 103%;
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	opacity: 0;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.btn-1d:hover,
+.btn-1d:active {
+	color: #0e83cd;
+}
+
+.btn-1d:hover:after {
+	width: 90%;
+	opacity: 1;
+}
+
+.btn-1d:active:after {
+	width: 101%;
+	opacity: 1;
+}
+
            
   /* Main result table's box-shadow property*/
   .bxshadow
