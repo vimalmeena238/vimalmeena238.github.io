@@ -41,7 +41,7 @@ tr {
   /* Main result table header's background gradient */
  .header-bg 
       { 
-           Background-color : #007FFF;
+           Background-color :black;
       }
        
   /* Buttons background gradient*/   
