@@ -33,7 +33,7 @@
 #page-wrap {
   width: 100%;
   margin: 4px auto;
-  box-shadow: 0 3px 5px #666;
+  box-shadow: 2px 3px 5px #666 ;
   overflow: visible;
   float: left;
   background: #ebebeb;
@@ -80,12 +80,12 @@ label {
   font-weight: bold;
   cursor: pointer;
   margin-bottom:-1px;
-  background:#333;
+  background:#005348;
 }
 
 .tab-content {
   color: #fff;
-  background:#888;
+  background:#1695A3;
   font-family: arial;
   font-weight: bold;
   padding: 0 10px;
@@ -95,47 +95,63 @@ label {
   overflow: hidden;
   transition: 0.5s;
 }
-input[type="radio"]:checked+label{background:#888}
+input[type="radio"]:checked+label{background:#1695A3}
 #tab1:checked~#tab1tab {
-  height: 150px;
+  height: 380px;
   padding: 10px;
 }
 
 #tab2:checked~#tab2tab {
-  height: 150px;
+  height: 380px;
   padding: 10px;
 }
 
 #tab3:checked~#tab3tab {
-  height: 150px;
+  height: 380px;
   padding: 10px;
 }
 #tab4:checked~#tab4tab {
-  height: 150px;
+  height: 380px;
   padding: 10px;
 }
 
 #tab5:checked~#tab5tab {
-  height: 150px;
+  height: 380px;
   padding: 10px;
 }
 
 #tab6:checked~#tab6tab {
-  height: 150px;
+  height:380px;
   padding: 10px;
 }
 #tab7:checked~#tab7tab {
-  height: 150px;
+  height: 380px;
   padding: 10px;
 }
 
 #tab8:checked~#tab8tab {
-  height: 150px;
+  height: 380px;
   padding: 10px;
 }
 
 #tab9:checked~#tab9tab {
-  height: 150px;
+  height: 380px;
+  padding: 10px;
+}
+#tab10:checked~#tab10tab {
+  height: 380px;
+  padding: 10px;
+}
+#tab11:checked~#tab11tab {
+  height: 380px;
+  padding: 10px;
+}
+#tab12:checked~#tab12tab {
+  height: 380px;
+  padding: 10px;
+}
+#tab13:checked~#tab13tab {
+  height: 380px;
   padding: 10px;
 }
   </style>
@@ -242,37 +258,43 @@ input[type="radio"]:checked+label{background:#888}
   <label class="" for="tab8">Day 8</label>
   <input type="radio" name="tab" id="tab9">
   <label class="" for="tab9">Day 9</label>
-  <div id="tab1tab" class="tab-content" style="color:white"> <table class="table">
+ <input type="radio" name="tab" id="tab10">
+  <label class="" for="tab10">Day 10</label>
+  <input type="radio" name="tab" id="tab11">
+  <label class="" for="tab11">Day 11</label>
+  <input type="radio" name="tab" id="tab12">
+  <label class="" for="tab12">Day 12</label>
+  <input type="radio" name="tab" id="tab13">
+  <label class="" for="tab13">Day 13</label>
+  <div id="tab1tab" class="tab-content" style="color:white"><table class="table">
     <thead>
       <tr>
         <th></th>
-        <th>Kanpur</th>
-        <th>Dehli</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Athletics</td>
-        <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-   
-      </tr>
-      <tr>
-        <td>Basketball</td>
+        <td>IIT Kanpur</td>
         <td>200</td>
         <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
           <td>200</td>
           <td>200</td>
           <td>200</td>
@@ -281,7 +303,23 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
       </tr>
       <tr>
-         <td>Football</td>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
          <td>200</td>
         <td>200</td>
         <td>200</td>
@@ -290,41 +328,123 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
           <td>200</td>
           <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
       </tr>
-
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
     </tbody>
   </table></div>
   <div id="tab2tab" class="tab-content" style="color:white"><table class="table">
     <thead>
       <tr>
         <th></th>
-        <th>Kanpur</th>
-        <th>Dehli</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Athletics</td>
-        <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-   
-      </tr>
-      <tr>
-        <td>Basketball</td>
+        <td>IIT Kanpur</td>
         <td>200</td>
         <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
           <td>200</td>
           <td>200</td>
           <td>200</td>
@@ -333,7 +453,23 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
       </tr>
       <tr>
-         <td>Football</td>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
          <td>200</td>
         <td>200</td>
         <td>200</td>
@@ -342,41 +478,123 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
           <td>200</td>
           <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
       </tr>
-
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
     </tbody>
   </table></div>
   <div id="tab3tab" class="tab-content" style="color:white"><table class="table">
     <thead>
       <tr>
         <th></th>
-        <th>Kanpur</th>
-        <th>Dehli</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Athletics</td>
-        <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-   
-      </tr>
-      <tr>
-        <td>Basketball</td>
+        <td>IIT Kanpur</td>
         <td>200</td>
         <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
           <td>200</td>
           <td>200</td>
           <td>200</td>
@@ -385,7 +603,23 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
       </tr>
       <tr>
-         <td>Football</td>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
          <td>200</td>
         <td>200</td>
         <td>200</td>
@@ -394,41 +628,123 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
           <td>200</td>
           <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
       </tr>
-
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
     </tbody>
   </table></div>
   <div id="tab4tab" class="tab-content" style="color:white"><table class="table">
     <thead>
       <tr>
         <th></th>
-        <th>Kanpur</th>
-        <th>Dehli</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Athletics</td>
-        <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-   
-      </tr>
-      <tr>
-        <td>Basketball</td>
+        <td>IIT Kanpur</td>
         <td>200</td>
         <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
           <td>200</td>
           <td>200</td>
           <td>200</td>
@@ -437,7 +753,23 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
       </tr>
       <tr>
-         <td>Football</td>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
          <td>200</td>
         <td>200</td>
         <td>200</td>
@@ -446,41 +778,123 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
           <td>200</td>
           <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
       </tr>
-
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
     </tbody>
   </table></div>
   <div id="tab5tab" class="tab-content" style="color:white"><table class="table">
     <thead>
       <tr>
         <th></th>
-        <th>Kanpur</th>
-        <th>Dehli</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Athletics</td>
-        <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-   
-      </tr>
-      <tr>
-        <td>Basketball</td>
+        <td>IIT Kanpur</td>
         <td>200</td>
         <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
           <td>200</td>
           <td>200</td>
           <td>200</td>
@@ -489,7 +903,23 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
       </tr>
       <tr>
-         <td>Football</td>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
          <td>200</td>
         <td>200</td>
         <td>200</td>
@@ -498,41 +928,123 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
           <td>200</td>
           <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
       </tr>
-
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
     </tbody>
   </table></div>
   <div id="tab6tab" class="tab-content" style="color:white"><table class="table">
     <thead>
       <tr>
         <th></th>
-        <th>Kanpur</th>
-        <th>Dehli</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Athletics</td>
-        <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-   
-      </tr>
-      <tr>
-        <td>Basketball</td>
+        <td>IIT Kanpur</td>
         <td>200</td>
         <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
           <td>200</td>
           <td>200</td>
           <td>200</td>
@@ -541,7 +1053,23 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
       </tr>
       <tr>
-         <td>Football</td>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
          <td>200</td>
         <td>200</td>
         <td>200</td>
@@ -550,41 +1078,123 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
           <td>200</td>
           <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
       </tr>
-
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
     </tbody>
   </table></div>
   <div id="tab7tab" class="tab-content" style="color:white"><table class="table">
     <thead>
       <tr>
         <th></th>
-        <th>Kanpur</th>
-        <th>Dehli</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Athletics</td>
-        <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-   
-      </tr>
-      <tr>
-        <td>Basketball</td>
+        <td>IIT Kanpur</td>
         <td>200</td>
         <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
           <td>200</td>
           <td>200</td>
           <td>200</td>
@@ -593,7 +1203,23 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
       </tr>
       <tr>
-         <td>Football</td>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
          <td>200</td>
         <td>200</td>
         <td>200</td>
@@ -602,41 +1228,123 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
           <td>200</td>
           <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
       </tr>
-
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
     </tbody>
   </table></div>
   <div id="tab8tab" class="tab-content" style="color:white"><table class="table">
     <thead>
       <tr>
         <th></th>
-        <th>Kanpur</th>
-        <th>Dehli</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Athletics</td>
-        <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-   
-      </tr>
-      <tr>
-        <td>Basketball</td>
+        <td>IIT Kanpur</td>
         <td>200</td>
         <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
           <td>200</td>
           <td>200</td>
           <td>200</td>
@@ -645,7 +1353,23 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
       </tr>
       <tr>
-         <td>Football</td>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
          <td>200</td>
         <td>200</td>
         <td>200</td>
@@ -654,41 +1378,123 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
           <td>200</td>
           <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
       </tr>
-
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
     </tbody>
   </table></div>
   <div id="tab9tab" class="tab-content" style="color:white"><table class="table">
     <thead>
       <tr>
         <th></th>
-        <th>Kanpur</th>
-        <th>Dehli</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
-        <th>Mumbai</th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Athletics</td>
-        <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-          <td>200</td>
-   
-      </tr>
-      <tr>
-        <td>Basketball</td>
+        <td>IIT Kanpur</td>
         <td>200</td>
         <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
           <td>200</td>
           <td>200</td>
           <td>200</td>
@@ -697,7 +1503,23 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
       </tr>
       <tr>
-         <td>Football</td>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
          <td>200</td>
         <td>200</td>
         <td>200</td>
@@ -706,10 +1528,695 @@ input[type="radio"]:checked+label{background:#888}
           <td>200</td>
           <td>200</td>
           <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
       </tr>
-
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
     </tbody>
   </table></div>
-</div> </div>
+  <div id="tab10tab" class="tab-content" style="color:white"><table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>IIT Kanpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
+         <td>200</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+    </tbody>
+  </table></div>
+  <div id="tab11tab" class="tab-content" style="color:white"><table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>IIT Kanpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
+         <td>200</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+    </tbody>
+  </table></div>
+  <div id="tab12tab" class="tab-content" style="color:white"><table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>IIT Kanpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
+         <td>200</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+    </tbody>
+  </table></div>
+  <div id="tab13tab" class="tab-content" style="color:white"><table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Athletics</th>
+        <th>Basketball</th>
+        <th>Football</th>
+        <th>Cricket</th>
+        <th>Volleyball</th>
+        <th>Table Tennis</th>
+        <th>Badminton</th>
+        <th>Lawn Tennis</th>
+        <th>Water polo</th>
+        <th>Weightlifting</th>
+        <th>Hockey</th>
+        <th>Squash</th>
+        <th>Swimming</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>IIT Kanpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Dehli</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+         <td>IIT Mumbai</td>
+         <td>200</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Madras</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Kharagpur</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Roorkee</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Hyderabad</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+      <tr>
+        <td>IIT Ghandhinagar</td>
+        <td>200</td>
+        <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+          <td>200</td>
+      </tr>
+    </tbody>
+  </table></div>
+</div> 
+</div>
 </body>
 </html>
